@@ -29,7 +29,7 @@ async function getTask(taskNumber) {
                 isValidStatus = true; // Valid status entered, exit loop
                 break;
             default:
-                alert('Invalid status. Please enter "todo", "doing", or "done".');
+                alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
         }
     }
 
